@@ -1,0 +1,147 @@
+@media only screen and (max-width: 1200px) {
+  #aside-2 .btn {
+    font-size: 16px;
+  }
+  #aside-2 img {
+    position: absolute;
+    right: 8%;
+    margin-top: 80px;
+  }
+}
+/* big tablets to desktop:from 768 to 1023 */
+@media only screen and (max-width: 992px) {
+  /* ---header--- */
+  #header h2 {
+    font-size: 22px;
+  }
+  #header h1 {
+    font-size: 40px;
+  }
+  #header h5 {
+    font-size: 18px;
+  }
+  #aside-2 .col-4 .h1 {
+    font-size: 30px;
+  }
+  #section-3 #col-1 .child-div {
+    width: 14rem;
+  }
+}
+/* big tablets to desktop:from 576 to 768 */
+@media only screen and (max-width: 768px) {
+  /* ---header--- */
+  /* main-section-1 */
+  #aside-2 .btn {
+    font-size: 16px;
+  }
+  #section-2 img {
+    width: 50%;
+  }
+  .col-md-4 {
+    margin-top: 3rem;
+  }
+  #aside-2 .col-4 .h1 {
+    font-size: 32px;
+  }
+  #section-3 #col-1 .child-div {
+    width: 22rem;
+  }
+  #aside-2 img {
+    position: absolute;
+    right: 8%;
+    margin-top: 85px;
+  }
+  #section-3 #col-1 .child-div {
+    margin-left: 4rem;
+  }
+
+  #aside-2 img {
+    position: absolute;
+    right: 8%;
+    margin-top: -74px;
+  }
+  #section-3 .container {
+    text-align: center;
+  }
+  #section-3 #col-3 .row {
+    text-align: center;
+  }
+  #section-2 .container {
+    text-align: center;
+  }
+  #section-2 #col-3 .btn {
+  }
+}
+/* small tablets to mobile:from 365 to 576 */
+@media only screen and (max-width: 576px) {
+  #section-3 #col-1 .child-div {
+    margin-left: 2.5rem;
+    width: 14rem;
+  }
+  #header h2 {
+    font-size: 19px;
+  }
+  #header h1 {
+    font-size: 34px;
+  }
+  #header h5 {
+    font-size: 16px;
+  }
+  #aside-2 .col-4 .h1 {
+    font-size: 21px;
+  }
+  #section-2 img {
+    width: auto;
+  }
+  #col-3 .col-sm-5 {
+    margin-top: 1rem;
+  }
+  #aside-2 .btn {
+    font-size: 18px;
+  }
+  #aside-2 .h-1 {
+    font-size: 18px;
+  }
+  #aside-2 img {
+    display: none;
+  }
+  #section-3 .col-md-6 #col-2 {
+    padding: 0%;
+  }
+  #section-3 #col-1 .h-1 {
+    text-align: center;
+  }
+}
+/* extra small to <= 365 */
+
+@media only screen and (max-width: 365px) {
+  #header h2 {
+    font-size: 17px;
+  }
+  #section-3 #col-1 .child-div {
+    margin-left: 0.5rem;
+    width: 12rem;
+  }
+  #header h1 {
+    font-size: 28px;
+  }
+  #header h5 {
+    font-size: 14px;
+  }
+  #aside-2 .btn {
+    font-size: 12px;
+  }
+  #aside-2 .h-1 {
+    font-size: 14px;
+  }
+  #aside-2 .col-4 .h1 {
+    font-size: 14px;
+  }
+  #aside-2 img {
+    display: none;
+  }
+  #section-3 #col-2 h1 {
+    font-size: 25px;
+    color: #525151;
+  }
+}
